@@ -15,7 +15,6 @@ describe('<TextInput />', () => {
 
   it('should call handleChange function on each key pressed ', () => {
     const fn = jest.fn()
-
     
     render(<TextInput handleChange={fn} />)
     const input = screen.getByPlaceholderText(/type your search/i);
