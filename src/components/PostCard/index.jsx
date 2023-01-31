@@ -1,3 +1,4 @@
+import React from "react";
 
 export const PostCard = ({title, cover, body, id})=> (
         <div className="post">
