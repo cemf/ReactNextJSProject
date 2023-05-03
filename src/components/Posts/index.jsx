@@ -1,3 +1,4 @@
+import React from 'react';
 import { PostCard } from '../PostCard';
 import './styles.css'
 
@@ -15,4 +16,4 @@ export const Posts = ({ posts = []}) =>(
       </div>
 
 
-    )  
+    )
